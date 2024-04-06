@@ -43,6 +43,12 @@ To run this project locally, follow these steps:
 
 5. Open your web browser and go to http://localhost:5000 to view the app.
 
+## Screenshots
+
+![Home Page](screenshots/home.png)
+![Search](screenshots/search.png)
+![Recipe List](screenshots/recipeList.png)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
