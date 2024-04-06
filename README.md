@@ -1,23 +1,51 @@
-# Recipe App - Node.js & Handlebars
+# Recipe App
 
-![node](https://github.com/shuklaritvik06/recipe-app/assets/72812470/ddfb7576-1a9c-4514-b2d8-594b74440c10)
-
-Welcome to the Recipe App! This web application is built using Node.js and Handlebars, allowing users to discover and manage a wide range of recipes.
-
-## Overview
-
-The Recipe App is designed to provide users with an intuitive interface for exploring and organising recipes. Users can browse through a collection of recipes, search for specific dishes, save their favourite recipes, and even create their own custom recipes.
+This is a Node.js project utilizing the Handlebars template engine to create a Recipe App. The app allows users to search for recipes using a query, fetching data from a remote API using Axios. The project follows the MVC (Model-View-Controller) architecture for better organization and separation of concerns.
 
 ## Features
 
-- Recipe Exploration: Users can browse through a vast collection of recipes, organised into different categories or searchable by keywords.
-- Search Functionality: The app provides a search feature that enables users to find recipes based on specific ingredients, cuisine types, or dietary preferences.
-- Dynamic Content Rendering: Handlebars is utilised to dynamically render the web pages, allowing for a seamless and interactive user experience
+- Search for recipes using a query
+- Fetches recipe data from a remote API using Axios
+- Utilizes MVC architecture for better organization
+- Dynamic content rendering using Handlebars
 
-## Contributing
+## Technologies Used
 
-Contributions to this project are welcomed! If you would like to contribute, please fork the repository, create a new branch, and submit a pull request. Make sure to follow the guidelines mentioned in the CONTRIBUTING.md file.
+- Node.js
+- Handlebars
+- Axios
+
+## Setup
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/recipe-app.git](https://github.com/AnkitJain78/RecipeApp.git
+   cd recipe-app
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+
+3. Create a .env file in the root directory and add your API key:
+
+   ```plaintext
+   API_KEY=your_api_key_here
+   BASE_URL=your_base_url_here
+
+4. Start the server:
+
+   ```bash
+   npm start
+
+5. Open your web browser and go to http://localhost:5000 to view the app.
 
 ## License
 
-This project is licensed under the MIT License. Refer to the LICENSE file for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+   
