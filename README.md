@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/recipe-app.git](https://github.com/AnkitJain78/RecipeApp.git
+   https://github.com/AnkitJain78/RecipeApp.git
    cd recipe-app
 
 2. Install dependencies:
